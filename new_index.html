@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome to Jacob's website!</title>
+  <link rel="icon" type="image/png" href="media/icon.svg">
+  <meta charset="UTF-8">
+</head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+<body class="index-body">
+  <style>
+		
+	body {
+	  margin: 0;
+	  padding: 5px;
+	  box-sizing: border-box;
+	}
+	
+    .title {
+	  top: 0;
+      background-color: rgba(0, 74, 173, 0.75);
+      border-radius: 15px;
+      padding: 10px;
+      font-family: 'Open Sans';
+      text-align: center;
+      width: 100%;
+	  color: white;
+	  box-sizing: border-box;
+    }
+
+    .menu {
+      position: sticky;
+	  top: 5px;
+      border-radius: 15px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(67, 67, 67);
+      display: flex;
+      font-family: 'Open Sans';
+      justify-content: center;
+	  box-sizing: border-box;
+    }
+
+    .menu li {
+      float: left;
+    }
+
+    .menu li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+    }
+
+    .index-body {
+      background-image: url('media/offices.jpg');
+      background-repeat: repeat-y;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: 100% auto;
+      background-color: #004aad;
+    }
+	
+	.index-box{
+	  display: inline-block;
+	  font-family: 'Open Sans';
+	  color: white;
+	  display: table-cell;
+	  margin: 10px;
+	  background-color: #004aadaa;
+	  border-radius: 15px;
+	  text-align: center;
+	  padding: 10px;
+	  width=100%;
+	  box-sizing: border-box;
+	  flex: 1;
+	}
+	
+	.index-container{
+	  display: flex;
+	  width: 100%;
+	  align-items: stretch;
+	  justify-content: center;
+	  box-sizing: border-box;
+	  flex: 1;
+
+	}
+	
+	@media screen and (max-width: 768px) {
+	  .index-box{
+	    display: flex;
+	    font-family: 'Open Sans';
+	    color: white;
+	    width: 90%;
+	    display: block;
+	    margin-bottom: 25px;
+		margin: 10px;
+	    background-color: #004aadaa;
+	    border-radius: 15px;
+		text-align: center;
+		padding: 10px;
+	  }
+	  
+	  .index-container {
+		flex-direction: column;
+		padding: 10px;
+	  }
+	}
+	
+	footer{
+	  font-family: 'Open Sans';
+	  color: white;
+  	  background-color: #004aadaa;
+	  border-radius: 15px;
+	}
+  </style>
+  <div class="header">
+	<img src="media/icon.svg" alt="An amorphous blob with a shadow" width="100" height="100">
+    <h1 class="title">Jacob's Website</h1>
+  </div>
+  <ul class="menu">
+    <li><a href="new_index.html">Home</a></li>
+    <li><a href="writings.html">Writings</a></li>
+    <li><a href="index.html">Old View</a></li>
+    <li><a href="bingus.html">?</a></li>
+  </ul>
+  
+  
+  <div class="index-container">
+  <div class="index-box">
+	<h2>About Me</h2>
+    <img src="media/20161010_134738.jpg" alt="A duck floating on a pond" width="320" height="180">
+	<p>Canadian person. Graduated from University of Waterloo in 2025. 
+	Statistician/mathematician with a minor in combinatorics and optimization by training.<br>
+	Amateur writer, trivia player, musician, singer, photographer, coder, 
+	Shakespeare enjoyer, sports watcher, and Filipino, in that order. 
+	Parle et écrit un peu de français.</p>
+  </div>
+	
+  <div class="index-box">
+	<p style="border:5px solid Orange">idk</p>
+	<audio controls>
+	  <source src="theme song.ogg" type="audio/ogg">
+      <source src="theme song.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+  </div>
+  
+  <div class="index-container">
+    <div class="index-box">
+      <h2>Contacts</h2>
+    </div>
+  </div>
+  
+  <p style="color:Red;">graphic design is my passion</p>
+  <video width="400" height="300" controls>
+    <source src="societe.mp4" type="video/mp4">
+    <source src="societe.ogg" type="video/ogg">
+  </video>
+  <br>
+  <b>
+    I'm gonna start putting my writings on this site!
+  </b><br>
+  <a href="writings.html">Some writings</a>
+  <br>
+  <!-- test -->
+  <iframe width="360" height="360" src="https://www.youtube.com/embed/BinZ4yki57M">
+  </iframe>
+  <form>
+    <label for="A">Placeholder Text</label><br>
+    <input type="text" id="B" name="C"><br>
+  </form>
+  <footer>
+    <p>©2026, Jacob&#128077;</p>
+  </footer>
+</body>
+</html>
