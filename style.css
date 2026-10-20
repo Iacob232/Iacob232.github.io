@@ -1,0 +1,55 @@
+	.header{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  position: relative;
+	  height: 70px;
+	}
+
+	.header img{
+	  position: absolute;
+	  left: 0;
+	  height: 100%;
+	  width: auto;
+	}
+
+	.title{
+	  top: 0;
+	  width: 100%;
+	  margin: 0;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  text-align: center;
+      background-color: rgba(0, 74, 173, 0.75);
+      border-radius: 15px;
+      padding: 10px;
+      font-family: 'Open Sans';
+	  color: white;
+	}
+	
+	.menu{
+      position: sticky;
+	  top: 5px;
+      border-radius: 15px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(67, 67, 67);
+      display: flex;
+      font-family: 'Open Sans';
+      justify-content: center;
+    }
+
+    .menu li{
+      float: left;
+    }
+
+    .menu li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+    }

@@ -4,60 +4,26 @@
 <head>
   <title>Welcome to Jacob's website!</title>
   <link rel="icon" type="image/png" href="media/icon.svg">
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="fonts" href="https://fonts.googleapis.com/css?family=Open Sans">
 </head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
 
 <body class="index-body">
   <style>
-		
-	body {
+	
+	*{
+      box-sizing: border-box;
+    }
+
+	body{
 	  margin: 0;
 	  padding: 5px;
-	  box-sizing: border-box;
 	}
-	
-    .title {
-	  top: 0;
-      background-color: rgba(0, 74, 173, 0.75);
-      border-radius: 15px;
-      padding: 10px;
-      font-family: 'Open Sans';
-      text-align: center;
-      width: 100%;
-	  color: white;
-	  box-sizing: border-box;
-    }
 
-    .menu {
-      position: sticky;
-	  top: 5px;
-      border-radius: 15px;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgba(67, 67, 67);
-      display: flex;
-      font-family: 'Open Sans';
-      justify-content: center;
-	  box-sizing: border-box;
-    }
-
-    .menu li {
-      float: left;
-    }
-
-    .menu li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 10px 10px;
-      text-decoration: none;
-    }
-
-    .index-body {
+    .index-body{
       background-image: url('media/offices.jpg');
       background-repeat: repeat-y;
       background-attachment: fixed;
@@ -70,14 +36,13 @@
 	  display: inline-block;
 	  font-family: 'Open Sans';
 	  color: white;
-	  display: table-cell;
 	  margin: 10px;
 	  background-color: #004aadaa;
 	  border-radius: 15px;
 	  text-align: center;
 	  padding: 10px;
-	  width=100%;
-	  box-sizing: border-box;
+	  width: auto;
+	  min-width: 0;
 	  flex: 1;
 	}
 	
@@ -86,17 +51,17 @@
 	  width: 100%;
 	  align-items: stretch;
 	  justify-content: center;
-	  box-sizing: border-box;
 	  flex: 1;
 
 	}
 	
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px){
 	  .index-box{
 	    display: flex;
 	    font-family: 'Open Sans';
 	    color: white;
-	    width: 90%;
+	    width: auto;
+		min-width: 0;
 	    display: block;
 	    margin-bottom: 25px;
 		margin: 10px;
@@ -106,10 +71,15 @@
 		padding: 10px;
 	  }
 	  
-	  .index-container {
+	  .index-container{
 		flex-direction: column;
 		padding: 10px;
+		width: 100%;
 	  }
+	}
+	
+	a{
+	  color: #738cff;
 	}
 	
 	footer{
@@ -118,9 +88,10 @@
   	  background-color: #004aadaa;
 	  border-radius: 15px;
 	}
+
   </style>
   <div class="header">
-	<img src="media/icon.svg" alt="An amorphous blob with a shadow" width="100" height="100">
+	<img src="media/icon.svg" alt="An amorphous blob with a shadow">
     <h1 class="title">Jacob's Website</h1>
   </div>
   <ul class="menu">
@@ -139,15 +110,15 @@
 	Statistician/mathematician with a minor in combinatorics and optimization by training.<br>
 	Amateur writer, trivia player, musician, singer, photographer, coder, 
 	Shakespeare enjoyer, sports watcher, and Filipino, in that order. 
-	Parle et écrit un peu de français.</p>
+	Parle et écrit en français un peu.</p>
   </div>
 	
   <div class="index-box">
-	<p style="border:5px solid Orange">idk</p>
-	<audio controls>
-	  <source src="theme song.ogg" type="audio/ogg">
-      <source src="theme song.mp3" type="audio/mpeg">
-    </audio>
+	<h2>Selected Projects</h2>
+	<img src="media/16 by 9 seagull.png" alt="A seagull standing on a rock in front of Niagara Falls" width="320" height="180"><br>
+	<a href="https://github.com/Iacob232/Shakespeare-Sonnets">Shakespeare's Sonnets</a><br>
+	<a href="writings.html">Writings</a><br>
+	<a href="https://www.youtube.com/playlist?list=PLH2qdBeuIN0epza-SiZy4XrhcLT0UdAG3">"Music"</a>
   </div>
   </div>
   
@@ -157,6 +128,12 @@
     </div>
   </div>
   
+  <p style="border:5px solid Orange">idk</p>
+  <audio controls>
+    <source src="theme song.ogg" type="audio/ogg">
+    <source src="theme song.mp3" type="audio/mpeg">
+  </audio>
+	
   <p style="color:Red;">graphic design is my passion</p>
   <video width="400" height="300" controls>
     <source src="societe.mp4" type="video/mp4">
