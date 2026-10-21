@@ -12,6 +12,7 @@
 <script>
   $(function () {
     $("#header").load("header.html");
+	$("#footer").load("footer.html");
   });
 </script>
 </head>
@@ -19,10 +20,6 @@
 
 <body class="index-body">
   <style>
-	
-	*{
-      box-sizing: border-box;
-    }
 
 	body{
 	  margin: 0;
@@ -83,13 +80,6 @@
 		width: 100%;
 	  }
 	}
-	
-	footer{
-	  font-family: 'Open Sans';
-	  color: white;
-  	  background-color: #004aadaa;
-	  border-radius: 15px;
-	}
 
   </style>
   <div id="header"></div>
@@ -139,8 +129,6 @@
     <label for="A">Placeholder Text</label><br>
     <input type="text" id="B" name="C"><br>
   </form>
-  <footer>
-    <p>©2026, Jacob&#128077;</p>
-  </footer>
+  <div id="footer"></div>
 </body>
 </html>

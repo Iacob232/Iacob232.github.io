@@ -1,3 +1,7 @@
+	*{
+      box-sizing: border-box;
+    }
+	
 	.header{
 	  display: flex;
 	  align-items: center;
@@ -56,4 +60,11 @@
 	
 	a{
 	  color: #738cff;
+	}
+	
+	.footer{
+	  font-family: 'Open Sans';
+	  color: white;
+  	  background-color: #004aadaa;
+	  border-radius: 15px;
 	}
