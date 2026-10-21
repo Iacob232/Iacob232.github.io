@@ -9,12 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script>
-  $(function () {
-	$("#header").load("{{ '/assets/html/header.html' | relative_url }}");
-	$("#footer").load("{{ '/assets/html/footer.html' | relative_url }}");
-  });
-</script>
 </head>
 
 
@@ -82,7 +76,7 @@
 	}
 
   </style>
-  <div id="header"></div>
+  {% include header.html %}
   
   <div class="index-container">
   <div class="index-box">
@@ -129,6 +123,6 @@
     <label for="A">Placeholder Text</label><br>
     <input type="text" id="B" name="C"><br>
   </form>
-  <div id="footer"></div>
+  {% include footer.html %}
 </body>
 </html>

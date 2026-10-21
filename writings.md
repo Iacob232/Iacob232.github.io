@@ -3,7 +3,6 @@ layout: default
 title: Songs
 permalink: /writings_new/
 ---
-{%- include header.html -%}
 # Songs
 **Note:** The numbering of the songs is based on the order they appear on a Google document I have, not chronologically.
 - [Song 1 - Untitled](writings/Song_1.html)
@@ -16,4 +15,3 @@ permalink: /writings_new/
 - [Song 30 - “I’ll put you in my landscape”](writings/Song_30.html)
 - [Song Fragments](writings/Song_Fragments.html)
 
-{%- include footer.html -%}

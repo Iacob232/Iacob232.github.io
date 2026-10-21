@@ -7,12 +7,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script>
-  $(function () {
-    $("#header").load("{{ '/assets/html/header.html' | relative_url }}");
-	$("#footer").load("{{ '/assets/html/footer.html' | relative_url }}");
-  });
-</script>
 </head>
 
 <body>
@@ -25,7 +19,7 @@ body{
 }
 </style>
 
-<div id="header"></div>
+{% include header.html %}
 
 <h1>Songs</h1>
 <h2>Note:</h2>
@@ -40,7 +34,7 @@ on a Google document I have, not chronologically.</p>
 &emsp;• <a href="writings/Song_29b.html">Song 29b - “In Control”</a><br>
 <a href="writings/Song_30.html">Song 30 - “I’ll put you in my landscape”</a><br>
 <a href="writings/Song_Fragments.html">Song Fragments</a><br><br>
-<div id="footer"></div>
+{% include footer.html %}
 
 </body>
 </html>
