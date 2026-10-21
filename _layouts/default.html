@@ -3,21 +3,16 @@
   <head>
     <meta charset="utf-8">
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script>
-      $(function () {
-        $("#header").load("header.html");
-		$("#footer").load("footer.html");
-	  });
-    </script>
-	<link rel="icon" type="image" href="media/icon.svg">
+	<link rel="icon" type="image" href="{{ '/media/icon.svg' | relative_url }}">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
   </head>
   <body>
   <style>
+  
     body{
-	  background-image: url('media/background site.svg');
+	  background-image: url("{{ '/media/background site.svg' | relative_url }}");
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;
       background-position: center;
@@ -49,12 +44,11 @@
 	}
 	
   </style>
-	<div id="header"></div>
+	{% include header.html %}
     <h1 id="title">{{ page.title }}</h1>
     <section id="content">
-	  <p>Sample</p>
       {{ content }}
     </section>
-    <div id="footer"></div>
+    {% include footer.html %}
   </body>
 </html>

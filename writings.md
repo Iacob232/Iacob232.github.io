@@ -15,4 +15,5 @@ permalink: /writings_new/
   - [Song 29b - “In Control”](writings/Song_29b.html)
 - [Song 30 - “I’ll put you in my landscape”](writings/Song_30.html)
 - [Song Fragments](writings/Song_Fragments.html)
+
 {%- include footer.html -%}

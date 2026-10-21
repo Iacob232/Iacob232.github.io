@@ -3,7 +3,7 @@
 
 <head>
   <title>Welcome to Jacob's website!</title>
-  <link rel="icon" type="image" href="media/icon.svg">
+  <link rel="icon" type="image" href="{{ '/media/icon.svg' | relative_url }}">
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,8 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script>
   $(function () {
-    $("#header").load("_includes/header.html");
-	$("#footer").load("_includes/footer.html");
+	$("#header").load("{{ '/assets/html/header.html' | relative_url }}");
+	$("#footer").load("{{ '/assets/html/footer.html' | relative_url }}");
   });
 </script>
 </head>
