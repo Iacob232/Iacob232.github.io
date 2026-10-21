@@ -1,5 +1,6 @@
 	*{
       box-sizing: border-box;
+	  overflow-x: hidden;
     }
 	
 	.header{
@@ -59,7 +60,7 @@
     }
 	
 	a{
-	  color: #c0c0c0;
+	  color: #d0d0d0;
 	}
 	
 	.footer{

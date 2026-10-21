@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<link rel="icon" type="image" href="{{ '/media/icon.svg' | relative_url }}">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  </head>
+  <body>
+  <style>
+	
+    body{
+	  background-image: url("{{ '/media/background poem.svg' | relative_url }}");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+      background-position: center;
+      background-size: 100% auto;
+      background-color: #008e1d;
+	  margin: 0;
+	  padding: 10px;
+    }
+	
+	#title{
+	  align-items: center;
+	  justify-content: center;
+	  text-align: center;
+	  font-family: 'Open Sans';
+	  color: white;
+	}
+	
+	#content{
+	  display: block;
+	  width: fit-content;
+	  align-items: stretch;
+	  margin: 10px auto;
+	  background-color: #d0d0d0ee;
+	  border-radius: 15px;
+	  text-align: left;
+	  padding: 10px;
+	  min-width: 0;
+	  font-family: "Times New Roman";
+	  color: black;
+	}
+	
+	@media screen and (max-width: 768px){
+	  body{
+		overflow-x: auto;
+	  }
+	  
+	  #content{
+	    display: flex;
+	    width: auto;
+	    display: block;
+	    margin-bottom: 25px;
+		margin: 10px;
+		flex-direction: column;
+		padding: 10px;
+	  }
+	}
+	
+  </style>
+	{% include header.html %}
+    <h1 id="title">{{ page.title }}</h1>
+    <section id="content">
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

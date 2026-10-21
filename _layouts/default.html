@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<link rel="icon" type="image" href="{{ '/media/icon.svg' | relative_url }}">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
@@ -11,6 +10,11 @@
   <body>
   <style>
   
+    *{
+	  font-family: 'Open Sans';
+	  color: white;
+	}
+	
     body{
 	  background-image: url("{{ '/media/background site.svg' | relative_url }}");
 	  background-repeat: no-repeat;
@@ -18,12 +22,9 @@
       background-position: center;
       background-size: 100% auto;
       background-color: #004aad;
-
+	  margin: 0;
+	  padding: 10px;
     }
-	*{
-	  font-family: 'Open Sans';
-	  color: white;
-	}
 	
 	#title{
 	  align-items: center;
@@ -41,6 +42,19 @@
 	  text-align: left;
 	  padding: 10px;
 	  min-width: 0;
+	}
+	
+	@media screen and (max-width: 768px){
+	  
+	  #content{
+	    display: flex;
+	    width: auto;
+	    display: block;
+	    margin-bottom: 25px;
+		margin: 10px;
+		flex-direction: column;
+		padding: 10px;
+	  }
 	}
 	
   </style>

@@ -3,7 +3,6 @@ layout: default
 title: Songs
 permalink: /writings_new/
 ---
-# Songs
 **Note:** The numbering of the songs is based on the order they appear on a Google document I have, not chronologically.
 - [Song 1 - Untitled](writings/Song_1.html)
 - [Song 18 - Untitled](writings/Song_18.html)
