@@ -1,7 +1,7 @@
 ---
 layout: poem
 title: Song 1
-permalink: /song_1_new
+permalink: /writings/Song_1_new/
 ---
 ten years ago<br>
 i found out that the key to life<br>

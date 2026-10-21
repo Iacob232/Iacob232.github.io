@@ -4,7 +4,7 @@ title: Songs
 permalink: /writings_new/
 ---
 **Note:** The numbering of the songs is based on the order they appear on a Google document I have, not chronologically.
-- [Song 1 - Untitled](writings/Song_1.html)
+- [Song 1 - Untitled](writings/Song_1_new/)
 - [Song 18 - Untitled](writings/Song_18.html)
 - [Song 22 - “On Shakespeare”](writings/Song_22.html)
 - [Song 25 - Untitled](writings/Song_25.html)
