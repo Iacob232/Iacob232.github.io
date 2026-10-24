@@ -1,4 +1,3 @@
-
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -10,3 +9,4 @@ vendor/
 Thumbs.db
 .vscode/
 .idea/
+Gemfile.lock

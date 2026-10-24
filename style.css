@@ -3,7 +3,7 @@
     }
 	
 	html{
-	  overflow-x: hidden;
+	  overflow-x: clip;
 	}
 	
 	.header{
@@ -12,6 +12,7 @@
 	  justify-content: center;
 	  position: relative;
 	  height: 70px;
+	  z-index: 1;
 	}
 
 	.header img{
@@ -48,6 +49,7 @@
       display: flex;
       font-family: 'Open Sans';
       justify-content: center;
+	  z-index: 1;
     }
 
     .menu li{
@@ -71,6 +73,6 @@
 	  color: white;
   	  background-color: #5170ffcc;
 	  border-radius: 15px;
-	  padding: 5px;
 	  left: 5;
+	  z-index: 1;
 	}

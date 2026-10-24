@@ -1,7 +1,7 @@
 ---
 layout: poem
 title: Song 1
-permalink: /writings/Song_1_new/
+permalink: /writings/Song_1
 ---
 ten years ago<br>
 i found out that the key to life<br>
@@ -18,7 +18,7 @@ digging trenches for the mafia<br>
 with my muddy glass of wine along<br>
 when i'm through and done with it<br>
 i hope the boss will give<br>
-a life and fife of bliss to me<br>
+a life of strife and bliss to me<br>
 regardless of what's in his glass<br>
 
 and when i'm gone<br>

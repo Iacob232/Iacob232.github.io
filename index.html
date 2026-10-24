@@ -1,13 +1,15 @@
 ---
+permalink: /
 ---
 
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Welcome to Jacob's website!</title>
+  <title>Jacob's Website!</title>
   <link rel="icon" type="image" href="{{ '/media/icon.svg' | relative_url }}">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
@@ -50,7 +52,6 @@
 	  align-items: stretch;
 	  justify-content: center;
 	  flex: 1;
-
 	}
 	
 	@media screen and (max-width: 768px){
@@ -70,8 +71,7 @@
 	}
 
   </style>
-  {% include header.html %}
-  
+  {% include header.html %} 
   <div class="index-container">
   <div class="index-box">
 	<h2>About Me</h2>
@@ -79,7 +79,7 @@
 	<p>Canadian person. Graduated from the University of Waterloo in 2025. 
 	Statistician/mathematician with a minor in combinatorics and optimization by training.<br>
 	Amateur writer, trivia player, musician, singer, photographer, coder, 
-	Shakespeare enjoyer, sports watcher, and Filipino, in that order. 
+	Shakespeare enjoyer, sports watcher, and Filipino, not in that order. 
 	Parle et écris en français un peu.</p>
   </div>
 	
@@ -95,6 +95,9 @@
   <div class="index-container">
     <div class="index-box">
       <h2>Contacts</h2>
+	  <p><i class="fa fa-linkedin-square" style="font-size:24px"></i> <a href="https://www.linkedin.com/in/jacob-bicol/">LinkedIn</a></p>
+	  <p><i class="fa fa-github-square" style="font-size:24px"></i> <a href="https://www.github.com/Iacob232/">Github</a></p>
+
     </div>
   </div>
   
