@@ -2,7 +2,7 @@
 layout: poem_with_image
 title: Song 29b
 permalink: /writings/Song_29b
-image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Eustache_Le_Sueur_-_Meekness_-_1974.233_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+image: "../media/poem/song%2029b.jpg"
 ---
 ### “In Control”
 O papa:<br>

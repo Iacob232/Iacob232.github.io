@@ -2,7 +2,7 @@
 layout: poem_with_image
 title: Song 18
 permalink: /writings/Song_18
-image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Wang_Shimin-After_Wang_Wei%27s_Snow_Over_Rivers_and_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+image: "../media/poem/song%2018.jpg"
 ---
 out in these streets i<br>
 feel so alone<br>

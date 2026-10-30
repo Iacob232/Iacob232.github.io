@@ -2,7 +2,7 @@
 layout: poem_with_image
 title: Song 29a
 permalink: /writings/Song_29a
-image: "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Goya_Dog.jpg/960px-Goya_Dog.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+image: "../media/poem/song%2029a.jpg"
 ---
 ### “Losing Control”
 O papa:<br>

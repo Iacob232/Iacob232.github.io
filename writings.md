@@ -11,5 +11,5 @@ permalink: /writings/
 - [Song 29 - “Control”](/writings/Song_29)
   - [Song 29a - “Losing Control”](/writings/Song_29a)
   - [Song 29b - “In Control”](/writings/Song_29b)
-- [Song 30 - “I’ll put you in my landscape”](/writings/Song_30)
+- [Song 30 - “I will put you in my landscape”](/writings/Song_30)
 - [Song Fragments](/writings/Song_Fragments)
