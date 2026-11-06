@@ -8,6 +8,7 @@ permalink: /writings/
 - [Song 18 - Untitled](/writings/Song_18)
 - [Song 22 - “On Shakespeare”](/writings/Song_22)
 - [Song 25 - Untitled](/writings/Song_25)
+- [Song 27 - “I know me”](/writings/Song_27)
 - [Song 29 - “Control”](/writings/Song_29)
   - [Song 29a - “Losing Control”](/writings/Song_29a)
   - [Song 29b - “In Control”](/writings/Song_29b)
