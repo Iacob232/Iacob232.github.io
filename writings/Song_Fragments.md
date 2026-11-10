@@ -29,3 +29,14 @@ though it doesn’t feel too soon<br>
 the months and years have passed you by<br>
 and still the clouds murmur your name<br>
 until you see the sun in all its light
+
+## Fragment 6
+### “Free Verse” (adapted from something I wrote in 2019)
+any poet after 2000 can't write<br>
+all they know is free verse, bad<br>
+grammar, swear word, shit imagery, and sad
+
+## Fragment 7
+### “Tennis in the Astral Plane”
+There are no grass courts in Neverland;<br>
+it’s easy to forget when you’re there.
