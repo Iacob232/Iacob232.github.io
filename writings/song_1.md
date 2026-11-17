@@ -22,7 +22,7 @@ a life of strife and bliss to me<br>
 regardless of what's in his glass<br>
 
 and when i'm gone<br>
-some ninety something years from now<br>
+some ninety-something years from now<br>
 someone will take my glass of wine<br>
 and taste it for the final time<br>
 and when i awake right there<br>

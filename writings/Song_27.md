@@ -25,7 +25,7 @@ at all the mourning geese, I saw in them<br>
 something so human, so unlike myself:<br>
 so genuine, and so deliberate—<br>
 something I couldn’t conjure up to give<br>
-Marie. Both her and one-legged goose lay down,<br>
+Marie. Both she and one-legged goose lay down,<br>
 but only one of them was being cared for.<br>
 While all the waterfowl came flooding in<br>
 singing a cacophonous requiem,<br>
