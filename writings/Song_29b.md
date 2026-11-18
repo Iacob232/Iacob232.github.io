@@ -2,7 +2,8 @@
 layout: poem_with_image
 title: Song 29b
 permalink: /writings/Song_29b
-image: "../media/poem/song%2029b.jpg"
+image: ../media/poem/song 29b.jpg
+image_description: “Meekness” by Eustache Le Sueur; a woman holding up a lamb against a golden background
 ---
 ### “In Control”
 O papa:<br>

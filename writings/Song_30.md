@@ -2,7 +2,8 @@
 layout: poem_with_image
 title: Song 30
 permalink: /writings/Song_30
-image: "../media/poem/song%2030.jpg"
+image: ../media/poem/song 30.jpg
+image_description: “The Unicorn in Captivity” from the Unicorn Tapestries; a unicorn chained to a tree in a small circular enclosure
 ---
 ### “I will put you in my landscape”
 I will put you in my landscape:<br>

@@ -2,7 +2,8 @@
 layout: poem_with_image
 title: Song 27
 permalink: /writings/Song_27
-image: "../media/poem/song%2027.jpg"
+image: ../media/poem/song 27.jpg
+image_description: A Canada goose with one leg standing in grass
 ---
 ### “I know me”
 The other day, when I was with Marie,<br>

@@ -2,7 +2,8 @@
 layout: poem_with_image
 title: Song 29a
 permalink: /writings/Song_29a
-image: "../media/poem/song%2029a.jpg"
+image: ../media/poem/song 29a.jpg
+image_description: “The Dog” by Goya; a dog behind a slope looking up to an empty sky
 ---
 ### “Losing Control”
 O papa:<br>

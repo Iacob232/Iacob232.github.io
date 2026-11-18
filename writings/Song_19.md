@@ -2,7 +2,8 @@
 layout: poem_with_image
 title: Song 19
 permalink: /writings/Song_19
-image: "../media/poem/song%2019.jpg"
+image: ../media/poem/song 19.jpg
+image_description: A black cat on an asphalt path
 ---
 ### “An Odd Occurrence in a Dream”
 there was an old house far from the present<br>

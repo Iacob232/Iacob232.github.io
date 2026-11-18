@@ -2,7 +2,8 @@
 layout: poem_with_image
 title: Song 18
 permalink: /writings/Song_18
-image: "../media/poem/song%2018.jpg"
+image: ../media/poem/song 18.jpg
+image_description: “After Wang Wei's Snow over Rivers and Mountains” by Wang Shimin; a mountain overlooking a river
 ---
 out in these streets i<br>
 feel so alone<br>
